@@ -20,7 +20,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav" dir="rtl">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a id="btnRecentProject" class="nav-link active coloredbutton" aria-current="page" href="#">Recent projects</a>
+                            <a id="btnRecentProject" class="nav-link active coloredbutton" aria-current="page" href="#recentProjectsTitle">Recent projects</a>
                         </li>
                         <li class="nav-item">
                             <a id="btnProfile" class="nav-link active coloredbutton" aria-current="page" href="#">Profile</a> 
@@ -53,13 +53,11 @@
         <div class="container" style="background-color: #454647;"> <!--About me container starts here-->
             <div class="row">
                 <div id="cardOne" class="card col" style="width: 18rem; position: relative; margin-right: 15px; width: 150px; height: auto; background-color: #454647; border: none; color: white;">
-                    <!--Bali image address: https://media.timeout.com/images/105240189/image.jpg-->
                     <div class="card-body" style=" margin: 0; top: 50%; left: 50%; position: absolute; -ms-transform: translate(-50%,-50%); transform: translate(-50%, -50%);">
                         <h1 style="display: inline; font-size:4rem;">ABOUT</h1>
                     </div>
                 </div> <!--end of first card-->
                 <div id="cardTwo" class="card col" style="width: 18rem; position: relative; margin-right: 15px; width: 150px; height: auto; background-color: #454647; color: white; border: none;">
-                    <!--Bali image address: https://media.timeout.com/images/105240189/image.jpg-->
                     <div class="card-body mt-5" style=" margin: 0; font-family: Arial, Helvetica, sans-serif;" >
                         <p style="display: inline;" >Faisal is a web accessibility advocate and 
                             front-end developer with various experience in designing, 
@@ -84,7 +82,7 @@
     <br>
     <br>
     <br>
-    <p style="text-align: center; font-size: xx-large; font-family: Arial, Helvetica, sans-serif;">Recent Projects</p>
+    <h2 id="recentProjectsTitle" style=" font-size:4rem; text-align: center; font-family: Arial, Helvetica, sans-serif; color: #3078c6;">RECENT PROJECTS</h2>
     <br>
     <div class="container" style="border-bottom: 1px solid grey; margin-top: 15px;">
         <!-- container just to show the the line!-->
@@ -93,39 +91,85 @@
         <br>
         <br>
     <div id="recentProjects">
-        <div class="container">
+        <div> <!--Recent project container starts here-->
             <div class="row">
-                <div id="projectOne" class="card col" style="width: 18rem; position: relative; margin-right: 15px; width: 150px; height: auto; background-color: #454647; border: 1px solid black; color:black;">
-                    <div class="card-body" style=" margin: 0;">
-                        <div class="row">
-                            <div class="col">
-                                <img src="#">
-                            </div> <!--end of picture column-->
-                            <div class="col">
-                                <p>Project: Password Generator</p>
-                                <p>Deployed version</p>
-                                <p>GitHub repository</p>
-                            </div> <!--end of description column-->
-                        </div> <!--end of inner row-->
-                    </div> <!--end of card-body-->
-                </div> <!--end of first project-->
-                <div id="projectTwo" class="card col" style="width: 18rem; position: relative; margin-right: 15px; width: 150px; height: auto; background-color: #454647; border: 1px solid black; color:black;">
-                    <div class="card-body" style=" margin: 0;">
-                        <div class="row">
-                            <div class="col">
-                                <img src="#">
-                            </div> <!--end of picture column-->
-                            <div class="col">
-                                <p>Project: Toursim Application</p>
-                                <p>Deployed version</p>
-                                <p>GitHub repository</p>
-                            </div> <!--end of description column-->
-                        </div> <!--end of inner row-->
-                    </div> <!--end of card-body-->
-                </div> <!--end of second project-->
-            </div> <!--end of row-->
-        </div> <!-- end of recentProject container-->
+                <div id="projectOnePicCard" class="card col-12 col-lg-8 col-xl-8" style=" color: white; margin: 0px; border: none;">
+                    <div id="cardBodyOne" class="card-body" style=" margin: 0px;">
+                    <img id="tourismAppPic" src="Assets/tourismApplication.png" style="max-width: 100%; max-height: 100%; margin: 0px;">
+                    </div>
+                </div> <!--end of projectOnePicCard-->
+                <div id="projectOneDesCard" class="card col-12 col-lg-4 ol-xl-4" style=" margin: 0px; color: black; border: none;">
+                    <div class="card-body mt-5" style=" margin: 0; font-family: Arial, Helvetica, sans-serif;" >
+                        <p style="color: black; font-weight: bold;">Toursim Application</p>
+                        <p>Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast</p>
+                        <p style="color: black; font-weight: bold;">Deployed version: <a href="#">click here</a></p>
+                        <p style="color: black; font-weight: bold;">GitHub repository: <a href="#">click here</a></p>
+                        
+                      
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div> <!--end of projectOneDesCard-->
+            </div> <!--end of project one row-->
+            <div class="container" style="border-bottom: 1px solid grey; margin-top: 15px;"> 
+            </div><!-- container just to show the the line between project and assignments!-->
+            <br>
+            <br>
+            <div class="row">
+                <div id="assignmentOneDesCard" class="card col-12 col-lg-4 ol-xl-4" style=" margin: 0px; color: black; border: none;">
+                    <div class="card-body mt-5" style=" margin: 0; font-family: Arial, Helvetica, sans-serif; margin-left: 10px;" >
+                        <p style="color: black; font-weight: bold;">Toursim Application</p>
+                        <p>Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast</p>
+                        <p style="color: black; font-weight: bold;">Deployed version: <a href="#">click here</a></p>
+                        <p style="color: black; font-weight: bold;">GitHub repository: <a href="#">click here</a></p>
+                        <p></p>
+                    </div>
+                </div> <!--end of assignmentOneDesCard-->
+                <div id="assignmentOnePicCard" class="card col-12 col-lg-8 col-xl-8" style=" color: white; margin: 0px; border: none;">
+                    <div id="cardBodyOne" class="card-body" style=" margin: 0px;">
+                    <img id="tourismAppPic" src="Assets/passwordGenerator.png" style="max-width: 100%; max-height: 100%; margin: 0px;">
+                    </div>
+                </div> <!--end of assignmentOnePicCard-->
+            </div> <!--end of project one row-->
+            <div class="container" style="border-bottom: 1px solid grey; margin-top: 15px;"> 
+            </div><!-- container just to show line between two assignments!-->
+            <br>
+            <br>
+            <div class="row">
+                <div id="assignmentTwoPicCard" class="card col-12 col-lg-8 col-xl-8" style=" color: white; margin: 0px; border: none;">
+                    <div id="cardBodyOne" class="card-body" style=" margin: 0px;">
+                    <img id="tourismAppPic" src="Assets/WorkDayScheduler.png" style="max-width: 100%; max-height: 100%; margin: 0px;">
+                    </div>
+                </div> <!--end of projectOnePicCard-->
+                <div id="assignmentTwoDesCard" class="card col-12 col-lg-4 ol-xl-4" style=" margin: 0px; color: black; border: none;">
+                    <div class="card-body mt-5" style=" margin: 0; font-family: Arial, Helvetica, sans-serif;" >
+                        <p style="color: black; font-weight: bold;">Work Day Scheduler</p>
+                        <p>Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
+                            the current weather and 5 days forecast</p>
+                        <p style="color: black; font-weight: bold;">Deployed version: <a href="#">click here</a></p>
+                        <p style="color: black; font-weight: bold;">GitHub repository: <a href="#">click here</a></p>
+                        
+                      
+                        <p></p>
+                        <p></p>
+                    </div>
+                </div> <!--end of projectOneDesCard-->
+            </div> <!--end of project one row-->
+        </div> <!--End of project one container-->
+        
     </div> <!--recentProject div ends here-->
+    <br>
+    <br>
+    <br>
+    <br>
 </body>
 <script>
 
