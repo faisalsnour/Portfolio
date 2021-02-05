@@ -8,6 +8,16 @@
   color: #3078c6;
 }
 
+#btnContact {
+  color: black;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#btnContact:hover {
+  color: #3078c6;
+}
+
 #btnRecentProject {
   color: black;
   font-weight: bold;
@@ -39,8 +49,16 @@ body {
   position: relative;
   height: 500px;
   width: auto;
-  /* padding: 10px; */
-  box-shadow: 0px 15px #e8e8e8;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#pdfResume {
+  color: white;
+  font-weight: bold;
+}
+
+#pdfResume:hover {
+  color: #3078c6;
 }
 
 #knowMore {
@@ -67,33 +85,13 @@ body {
   background-color: #3078c6;
 }
 
-/* #projectOneCol {
-  background-image: url("Assets/passwordGenerator.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+ul {
+  list-style-type: none;
+}
 
-/* #projectTwoCol {
-  background-image: url("Assets/tourismApplication.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* #cardBodyOne {
-  background-image: url("Assets/tourismApplication.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
-
-/* #tourismAppPic {
-  background-image: url("Assets/tourismApplication.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-} */
+#aboutMe {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 a {
   text-decoration: none;
