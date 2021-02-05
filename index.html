@@ -6,6 +6,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/logo.png">
     <title>Faisal Nour</title>
 </head>
 <body>
@@ -52,12 +53,12 @@
         <div id="aboutMe" style="background-color:#454647 ;">
         <div class="container" style="background-color: #454647;"> <!--About me container starts here-->
             <div class="row">
-                <div id="cardOne" class="card col" style="width: 18rem; position: relative; margin-right: 15px; width: 150px; height: auto; background-color: #454647; border: none; color: white;">
-                    <div class="card-body" style=" margin: 0; top: 50%; left: 50%; position: absolute; -ms-transform: translate(-50%,-50%); transform: translate(-50%, -50%);">
-                        <h1 style="display: inline; font-size:4rem;">ABOUT</h1>
+                <div id="cardOne" class="card col-12 col-lg-6 col-xl-6" style="margin-top: 20px; margin-bottom: 20px; height: auto; background-color: #454647; border: none; color: white;">
+                    <div class="card-body">
+                        <h1 style="display: inline; font-size:4rem; margin: 0; top: 50%; left: 50%; position: absolute; -ms-transform: translate(-50%,-50%); transform: translate(-50%, -50%);">ABOUT</h1>
                     </div>
                 </div> <!--end of first card-->
-                <div id="cardTwo" class="card col" style="width: 18rem; position: relative; margin-right: 15px; width: 150px; height: auto; background-color: #454647; color: white; border: none;">
+                <div id="cardTwo" class="card col-12 col-lg-6 col-xl-6" style=" background-color: #454647; color: white; border: none;">
                     <div class="card-body mt-5" style=" margin: 0; font-family: Arial, Helvetica, sans-serif;" >
                         <p style="display: inline;" >Faisal is a web accessibility advocate and 
                             front-end developer with various experience in designing, 
@@ -121,7 +122,7 @@
             <div class="row">
                 <div id="assignmentOneDesCard" class="card col-12 col-lg-4 ol-xl-4" style=" margin: 0px; color: black; border: none;">
                     <div class="card-body mt-5" style=" margin: 0; font-family: Arial, Helvetica, sans-serif; margin-left: 10px;" >
-                        <p style="color: black; font-weight: bold;">Toursim Application</p>
+                        <p style="color: black; font-weight: bold;">Password Generator</p>
                         <p>Application that helps traveler to determine their destination by providing 
                             the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
                             the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
@@ -150,28 +151,43 @@
                 <div id="assignmentTwoDesCard" class="card col-12 col-lg-4 ol-xl-4" style=" margin: 0px; color: black; border: none;">
                     <div class="card-body mt-5" style=" margin: 0; font-family: Arial, Helvetica, sans-serif;" >
                         <p style="color: black; font-weight: bold;">Work Day Scheduler</p>
-                        <p>Application that helps traveler to determine their destination by providing 
-                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
-                            the current weather and 5 days forecast Application that helps traveler to determine their destination by providing 
-                            the current weather and 5 days forecast</p>
-                        <p style="color: black; font-weight: bold;">Deployed version: <a href="#">click here</a></p>
-                        <p style="color: black; font-weight: bold;">GitHub repository: <a href="#">click here</a></p>
-                        
-                      
+                        <p>The idea of this project is to build a simple event scheduler for users where they can enter events 
+                            during their working hours which is typically between 9:00 AM to 5:00 PM. Users events
+                            are saved in local storages so even when users close the application, they will find their 
+                            information once they come back</p>
+                        <p style="color: black; font-weight: bold;">Deployed version: <a href="https://faisalsnour.github.io/WorkDayScheduler/" target="_blank" style="text-decoration: none;">Here</a></p>
+                        <p style="color: black; font-weight: bold;">GitHub repository: <a href="https://github.com/faisalsnour/WorkDayScheduler" target="_blank" style="text-decoration: none;">Here</a></p>
                         <p></p>
                         <p></p>
                     </div>
                 </div> <!--end of projectOneDesCard-->
             </div> <!--end of project one row-->
         </div> <!--End of project one container-->
-        
     </div> <!--recentProject div ends here-->
     <br>
     <br>
     <br>
-    <br>
+    <div id="contactMe" style="background-color:#454647 ;">
+        <div class="container" style="background-color: #454647;"> <!--About me container starts here-->
+            <div class="row">
+                <div id="cardInfo" class="card col-12 col-lg-6 col-xl-6" style="margin-top: 20px; margin-left: 20px; margin-bottom: 20px; height: auto; background-color: #454647; border: none; color: white;">
+                    <div class="card-body">
+                        <p style="font-weight: bold;">Contact<p>
+                        <p>(647) 309-5646</p>
+                        <p>faisalskhalifa@gmail.com</p>
+                        <p style="margin-top: 50px; font-weight: bold;">Connect with me through</p>
+                        <p><a href="mailto:faisalskhalifa@gmail.com" target="_blank"><img src="Assets/email.png" width="23px" height="23px"></a><a href="https://www.linkedin.com/in/faisal-nour/" target="_blank"><img src="Assets/LinkedIn.png" width="23px" height="23px" style="margin-left: 10px;"></a><a href="https://github.com/faisalsnour" target="_blank"><img src="Assets/github.png" width="25px" height="25px" style="margin-left: 10px;"></a></p>
+                        <!-- <h1 style="display: inline; font-size:4rem; margin: 0; top: 50%; left: 50%; position: absolute; -ms-transform: translate(-50%,-50%); transform: translate(-50%, -50%);">Co</h1> -->
+                    </div>
+                </div> <!--end of first card-->
+            </div> <!--end of contact me row-->
+        </div> <!--End of Contact me container-->
+    </div> <!--end of contact me div-->
+    <footer style="background-color: #2e2f30; text-align: center; color: #868686; height: 70px; position: relative;">
+        <p style="margin: 0; top: 50%; left: 50%; position: absolute; -ms-transform: translate(-50%,-50%); transform: translate(-50%, -50%);">&#169;2021 Faisal Nour. All Rights Reserved</p></footer>
 </body>
 <script>
+
 
 
 function changeTxt(){
